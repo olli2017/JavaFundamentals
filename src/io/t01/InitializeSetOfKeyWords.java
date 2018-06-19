@@ -7,7 +7,7 @@ import java.util.HashSet;
 public class InitializeSetOfKeyWords {
 
     static HashSet<String> initialize() throws IOException {
-        FileInputStream fileInputStream = new FileInputStream("./resources/KeyWords");
+        FileInputStream fileInputStream = new FileInputStream("./resources/io/t01/KeyWords");
 
         HashSet<String> keyWords = new HashSet<>();
         StringBuilder sb = new StringBuilder();

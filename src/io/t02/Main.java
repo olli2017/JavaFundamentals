@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        FileReader fr = new FileReader("./resources/Notepad.java");
+        FileReader fr = new FileReader("./resources/io/t01/Notepad.java");
         BufferedReader br = new BufferedReader(fr);
 
         StringBuilder sb = new StringBuilder();

@@ -17,7 +17,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        FileInputStream fileInputStream = new FileInputStream("./resources/Notepad.java");
+        FileInputStream fileInputStream = new FileInputStream("./resources/io/t01/Notepad.java");
 
         StringBuilder sb = new StringBuilder();
 
