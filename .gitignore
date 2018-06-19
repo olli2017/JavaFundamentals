@@ -8,8 +8,6 @@ classes
 out
 build
 *.class
-resources
-output
 
 # User-specific stuff
 .idea/**/workspace.xml
