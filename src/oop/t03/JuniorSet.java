@@ -6,8 +6,8 @@ import oop.t03.stationery.officeProducts.*;
 import oop.t03.stationery.writingProducts.*;
 
 public class JuniorSet {
-    private Stationery[] stationeries = {new Pen(30), new Pencil(20), new Paper(100),
-            new Clip(1), new Brush(15), new Paint(25)};
+    private Stationery[] stationeries = {new Pen(20), new Pencil(20), new Paper(100),
+            new Clip(1), new Brush(20), new Paint(20)};
 
     public Stationery[] getStationeries() {
         return stationeries.clone();
