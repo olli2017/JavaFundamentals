@@ -8,6 +8,7 @@ classes
 out
 build
 *.class
+lambda
 
 # User-specific stuff
 .idea/**/workspace.xml
