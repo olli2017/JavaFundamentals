@@ -9,9 +9,9 @@ import java.util.Properties;
 public class Main {
     public static void main(String[] args) {
         Properties properties = new Properties();
-        Path path1 = Paths.get("D:\\JavaFundamentals\\resources\\exceptions\\t02\\demo.properties");
-        Path path2 = Paths.get("D:\\JavaFundamentals\\resources\\exceptions\\t02\\empty.properties");
-        Path path3 = Paths.get("D:\\JavaFundamentals\\resources\\exceptions\\t02\\incorrect.properties");
+        Path path1 = Paths.get("resources\\exceptions\\t02\\demo.properties");
+        Path path2 = Paths.get("resources\\exceptions\\t02\\empty.properties");
+        Path path3 = Paths.get("resources\\exceptions\\t02\\incorrect.properties");
         try {
             properties.load(Files.newInputStream(path1, StandardOpenOption.READ));
             if (properties.isEmpty())
