@@ -1,5 +1,8 @@
 package oop.t06;
 
+import oop.t07.MyAnnotation;
+
+@MyAnnotation
 public class AtomicBoat {
     private String name;
 
